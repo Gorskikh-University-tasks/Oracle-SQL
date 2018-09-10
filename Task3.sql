@@ -5,13 +5,13 @@ CODE_OPERATION	ID_CLIENT
 2000	        6700 8967 5500
 сделать
 RN	CNT	CODE_OPERATION	ID_CLIENT
-1	0	1000 1100	    841000 841100
+1	0	1000 1100	841000 841100
 	1	1000	        841000
 	2	1100	        841100
 2	0	2000	        6700 8967 5500
 	1	2000	        6700
-	2		            8967
-	3		            5500
+	2		        8967
+	3		        5500
 
 WITH inf1 AS 
 (SELECT '1000 1100' code_operation, '841000 841100' id_client 
