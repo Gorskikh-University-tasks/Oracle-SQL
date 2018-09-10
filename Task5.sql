@@ -1,9 +1,9 @@
 Определить список сотрудников (таблица Employees), у которых в именах и фамилиях содержится, по крайней мере, по три совпадающие буквы. 
 Результат представить в виде:
-Сотрудник			Результат
-Alberto Errazuriz	Совпадают три буквы (a,e,r)
-Alexaner Hunold		Совпадают три буквы (d,l,n)
-Elizabeth Bates		Совпадают четыре буквы (a,b,e,t)
+Сотрудник			        Результат
+Alberto Errazuriz	      Совпадают три буквы (a,e,r)
+Alexaner Hunold		    Совпадают три буквы (d,l,n)
+Elizabeth Bates		    Совпадают четыре буквы (a,b,e,t)
 
 WITH inf_l AS
 (SELECT employee_id, LOWER(REPLACE(last_name, ' ', '')) last_name, NULL alph
